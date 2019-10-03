@@ -1,0 +1,219 @@
+[
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae1899000000"
+        },
+        "name": "Monster Pizza",
+        "ingredients": [
+            "гірчічний соус",
+            "бекон",
+            "мисливські ковбаски",
+            "гриби",
+            "помідори",
+            "сір моцарелла"
+        ],
+        "image": "1D4C0F53-9703-46B4-8A38-65A2727193A8.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae1899000001"
+        },
+        "name": "Курка з грибами",
+        "ingredients": [
+            "томатний соус",
+            "сир моцарелла",
+            "куряче філе",
+            "грибі",
+            "помідори",
+            "маслини",
+            "перець чілі"
+        ],
+        "image": "1F3F8DFC-6084-4182-9FD5-BABE64615D44.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae1899000002"
+        },
+        "name": "Маргарита",
+        "ingredients": [
+            "томатній соус",
+            "сир моцарелла (подвійній сир)",
+            "помідори"
+        ],
+        "image": "2490E8E6-AB8C-466F-98D7-91FDE3ED04F7.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae1899000003"
+        },
+        "name": "Дитяча",
+        "ingredients": [
+            "томатний соус",
+            "сир моцарелла",
+            "куряче філе",
+            "кукурудза",
+            "солодкий перець",
+            "помідори"
+        ],
+        "image": "262AB3EF-E8E5-4E29-8DE0-A5D33611F1BC.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae1899000004"
+        },
+        "name": "Салями",
+        "ingredients": [
+            "томатній соус",
+            "сир моцарелла",
+            "салямі"
+        ],
+        "image": "27E7CB80-CD9C-44FF-803C-CC39F7AF8B74.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae1899000005"
+        },
+        "name": "Шинка з грибами",
+        "ingredients": [
+            "томатній соус",
+            "сир моцарелла",
+            "шинка",
+            "гриби"
+        ],
+        "image": "3209DD7E-F566-4E98-BC0B-65EA69D28235.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae1899000006"
+        },
+        "name": "Мисливська",
+        "ingredients": [
+            "гірчічний соус",
+            "сир моцарелла",
+            "мисливські ковбаски",
+            "шинка",
+            "гриби",
+            "помідори"
+        ],
+        "image": "3AB2D6CD-FC37-46D2-BF56-9EF63CBC827C.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae1899000007"
+        },
+        "name": "Вегетарианская",
+        "ingredients": [
+            "томатний соус",
+            "сир моцарелла",
+            "гриби",
+            "солодкий перець",
+            "помідори"
+        ],
+        "image": "43A97F16-6878-44E0-B0CE-C4D5EC80FFD4.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae1899000008"
+        },
+        "name": "Гавайська",
+        "ingredients": [
+            "томатній соус",
+            "сир моцарелла",
+            "куряче філе",
+            "ананаси",
+            "помідори"
+        ],
+        "image": "46894F58-251A-43CE-82A3-DDD89AE16BD0.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae1899000009"
+        },
+        "name": "Солодка",
+        "ingredients": [
+            "Нутелла",
+            "банан"
+        ],
+        "image": "4766121C-2DF0-43C3-AC5B-4216FC823918.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae189900000a"
+        },
+        "name": "4 сира",
+        "ingredients": [
+            "Portuguese",
+            "Tsonga",
+            "Papiamento",
+            "Tok Pisin",
+            "Kyrgyz",
+            "Ndebele",
+            "Dzongkha"
+        ],
+        "image": "4C9AB417-C697-4CFE-B377-A80B11A95DA2.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae189900000b"
+        },
+        "name": "Прошутто",
+        "ingredients": [
+            "Korean",
+            "Sotho",
+            "Malayalam",
+            "Korean",
+            "Yiddish",
+            "Kurdish",
+            "Croatian"
+        ],
+        "image": "4CD0AD9C-ADE4-4C32-9B31-72334A97DBCC.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae189900000c"
+        },
+        "name": "Артишоки",
+        "ingredients": [
+            "Greek",
+            "Dzongkha",
+            "Tetum",
+            "Maltese",
+            "Macedonian",
+            "German",
+            "Greek"
+        ],
+        "image": "547B2E13-ED4D-4348-AF30-43EA792C3505.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae189900000d"
+        },
+        "name": "4 мяса",
+        "ingredients": [
+            "Tetum",
+            "Marathi",
+            "Polish",
+            "Italian",
+            "Filipino",
+            "Maltese",
+            "Indonesian"
+        ],
+        "image": "59E19909-54E1-46CF-8FAB-DF0FE614181A.jpeg"
+    },
+    {
+        "id": {
+            "$oid": "5cc7428afc13ae189900000e"
+        },
+        "name": "Рыбная",
+        "ingredients": [
+            "Punjabi",
+            "Burmese",
+            "Fijian",
+            "Māori",
+            "French",
+            "Italian",
+            "Hiri Motu"
+        ],
+        "image": "6008C2A1-2861-4B19-AB97-053E8948E9E2.jpeg"
+    }
+]
