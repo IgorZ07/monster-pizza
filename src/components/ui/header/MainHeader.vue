@@ -35,9 +35,6 @@
 <script>
 export default {
   name: "MainHeader",
-  mixins: [],
-  components: {},
-  props: {},
   data() {
     return {
       mainMenu: [
@@ -48,17 +45,6 @@ export default {
       ]
     };
   },
-  computed: {},
-  methods: {},
-  watch: {},
-  beforeCreated() {},
-  created() {},
-  beforeMount() {},
-  mounted() {},
-  beforeUpdate() {},
-  updated() {},
-  beforeDestroy() {},
-  destroyed() {}
 };
 </script>
 
