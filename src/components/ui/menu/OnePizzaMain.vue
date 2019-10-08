@@ -16,27 +16,10 @@
 </template>
 
 <script>
-// import Foo from 'bar/foo'
 
 export default {
   name: "onepizza",
-  mixins: [],
-  components: {},
   props: ["pizza"],
-  data() {
-    return {};
-  },
-  computed: {},
-  methods: {},
-  watch: {},
-  beforeCreated() {},
-  created() {},
-  beforeMount() {},
-  mounted() {},
-  beforeUpdate() {},
-  updated() {},
-  beforeDestroy() {},
-  destroyed() {}
 };
 </script>
 
