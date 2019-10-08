@@ -17,8 +17,6 @@ const getPizzas = async () => {
     return pizzas
 }
 
-// const addCoaches
-// const updateCoache = async id 
 
 
 export default { getPizzas: getPizzas }

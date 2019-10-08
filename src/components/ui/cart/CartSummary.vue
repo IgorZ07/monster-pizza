@@ -37,13 +37,9 @@
 </template>
 
 <script>
-// import Foo from 'bar/foo'
 
 export default {
   name: "CartSummary",
-  mixins: [],
-  components: {},
-  props: {},
   data() {
     return {
       drawer: null,
@@ -53,17 +49,6 @@ export default {
       ]
     };
   },
-  computed: {},
-  methods: {},
-  watch: {},
-  beforeCreated() {},
-  created() {},
-  beforeMount() {},
-  mounted() {},
-  beforeUpdate() {},
-  updated() {},
-  beforeDestroy() {},
-  destroyed() {}
 };
 </script>
 

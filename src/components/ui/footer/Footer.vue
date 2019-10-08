@@ -20,13 +20,9 @@
 </template>
 
 <script>
-// import Foo from 'bar/foo'
 
 export default {
   name: "footer",
-  mixins: [],
-  components: {},
-  props: {},
   data() {
     return {
       icons: [
@@ -38,17 +34,6 @@ export default {
       ]
     };
   },
-  computed: {},
-  methods: {},
-  watch: {},
-  beforeCreated() {},
-  created() {},
-  beforeMount() {},
-  mounted() {},
-  beforeUpdate() {},
-  updated() {},
-  beforeDestroy() {},
-  destroyed() {}
 };
 </script>
 
