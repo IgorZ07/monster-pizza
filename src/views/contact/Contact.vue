@@ -64,30 +64,13 @@
 </template>
 
 <script>
-// import Foo from 'bar/foo'
 import Header from "../../components/ui/header/MainHeader";
 
 export default {
   name: "contact",
-  mixins: [],
   components: {
     Header
   },
-  props: {},
-  data() {
-    return {};
-  },
-  computed: {},
-  methods: {},
-  watch: {},
-  beforeCreated() {},
-  created() {},
-  beforeMount() {},
-  mounted() {},
-  beforeUpdate() {},
-  updated() {},
-  beforeDestroy() {},
-  destroyed() {}
 };
 </script>
 
