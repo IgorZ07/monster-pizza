@@ -37,34 +37,20 @@
 </template>
 
 <script>
-// import PlusMinusQty from "../button/PlusMinusQuantity";
-// import OnePizza from "./OnePizzaMain";
 
 export default {
   name: "allpizza",
-  mixins: [],
-  components: {},
   props: ["allPizzas"],
   data() {
     return {
       pizzaPic: require("../../../assets/pizza_img/1D4C0F53-9703-46B4-8A38-65A2727193A8.jpeg")
     };
   },
-  computed: {},
   methods: {
     getImgUrl(pizza) {
       return require("../../../assets/pizza_img/" + pizza.image);
     }
   },
-  watch: {},
-  beforeCreated() {},
-  created() {},
-  beforeMount() {},
-  mounted() {},
-  beforeUpdate() {},
-  updated() {},
-  beforeDestroy() {},
-  destroyed() {}
 };
 </script>
 
