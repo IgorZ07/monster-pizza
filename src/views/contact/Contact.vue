@@ -1,5 +1,5 @@
 <template>
-  <div style="height:100vh" flex inline class="about" app>
+  <div style="height:100vh" flex inline class="contact" app>
     <Header/>
     <v-container class="container" fluid>
       <transition name="slide-fade">
