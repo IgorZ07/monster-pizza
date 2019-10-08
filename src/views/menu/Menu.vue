@@ -1,7 +1,6 @@
 <template>
-  <div style="height:100vh" flex inline class="about" app>
+  <div style="height:100vh" flex inline class="menu" app>
     <Header/>
-
     <!-- <v-img
       app
       style="height:100vh"
