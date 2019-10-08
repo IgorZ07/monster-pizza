@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # monster-pizza
 
 ## Project setup
@@ -28,6 +27,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
 # monster-pizza
->>>>>>> 76ca94a99785c31c684094d389537078364b8176
