@@ -27,15 +27,7 @@
       </v-list>
     </v-menu>
 
-    <v-btn color="rgba(225,225,225,0)" class="elevation-0" icon>
-      <v-badge overlap color="orange">
-        <template v-slot:badge>
-          <!-- <span v-if="$store.state.pizzaOrder.length>0">{{ $store.state.pizzaOrder.length }}</span> -->
-          <span>7</span>
-        </template>
-        <v-icon medium color="light">shopping_cart</v-icon>
-      </v-badge>
-    </v-btn>
+  
   </v-toolbar>
 </template>
 
