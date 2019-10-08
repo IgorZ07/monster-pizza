@@ -21,12 +21,12 @@ const actions = {
 
 const mutations = {
     addOrder: function (state, id) {
-        console.log("Adding order working!")
+        // console.log("Adding order working!")
 
         state.pizzaOrder = state.pizzaOrder.push(id)
     },
     deleteOrder: function (state, id) {
-        console.log("Delete order working!")
+        // console.log("Delete order working!")
 
         let index = state.pizzaOrder.numberOf(id)
         state.pizzaOrder.splice(index, 1)
