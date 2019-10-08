@@ -13,3 +13,9 @@ export default {
   }
 };
 </script>
+
+<style>
+* {
+  font-family: "Roboto", sans-serif
+}
+</style>
