@@ -25,11 +25,31 @@
             >{{ pizza.ingredients.join(", ") }}</v-list-tile-sub-title>
           </v-list-tile-content>
 
-          <v-list-tile-action>
+          <div class="wrapper">
+         
+            <img 
+              :src="require('../../../assets/svg/pizza.png')"
+              class="pizza-size-small"
+             />
+            <v-list-tile-sub-title 
+              class="font-weight-thin caption"
+              width="20%">40&nbsp;cм
+            </v-list-tile-sub-title>
+
+            <img 
+              :src="require('../../../assets/svg/pizza.png')"
+              class="pizza-size-big"
+             />
+             <v-list-tile-sub-title 
+              class="font-weight-thin caption nowrap"
+              width="40%">55&nbsp;cм
+            </v-list-tile-sub-title>
+          </div>
+         <!-- <v-list-tile-action>
             <v-btn icon>
               <v-icon color="grey lighten-1">shopping_cart</v-icon>
             </v-btn>
-          </v-list-tile-action>
+          </v-list-tile-action> -->
         </v-list-tile>
       </v-list>
     </v-flex>
@@ -55,4 +75,21 @@ export default {
 </script>
 
 <style scoped>
+.wrapper{
+  display:flex;
+  flex-direction: row;
+  min-width: 27%;
+  align-items: baseline;
+  align-content: center;
+  font-size: 12px;
+  padding-left: 7px;
+}
+.pizza-size-small{
+  max-width: 15px;
+  padding-right:3px;
+}
+.pizza-size-big{
+  max-width: 20px;
+  padding-right:3px;
+}
 </style>
