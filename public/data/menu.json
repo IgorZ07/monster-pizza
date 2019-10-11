@@ -7,7 +7,8 @@
         "weight30":"450 грам",
         "weight36":"600 грам",
         "price30":"49 грн",
-        "price36":"79 грн"
+        "price36":"79 грн",
+        "pizzaLogo": "pizza.png"
     },
     {
         "id":{"$oid":"5cc7428afc13ae1899000001"},
@@ -17,7 +18,8 @@
         "weight30":"520 грам",
         "weight36":"690 грам",
         "price30":"69 грн",
-        "price36":"99 грн"
+        "price36":"99 грн",
+        "pizzaLogo": "pizza.png"
     },
     {
         "id":{"$oid":"5cc7428afc13ae1899000002"},
@@ -27,7 +29,8 @@
         "weight30":"550 грам",
         "weight36":"750 грам",
         "price30":"79 грн",
-        "price36":"109 грн"
+        "price36":"109 грн",
+        "pizzaLogo": "pizza.png"
     },
     {
         "id":{"$oid":"5cc7428afc13ae1899000007"},
@@ -37,7 +40,8 @@
         "weight30":"520 грам",
         "weight36":"680 грам",
         "price30":"69 грн",
-        "price36":"99 грн"
+        "price36":"99 грн",
+        "pizzaLogo": "pizza.png"
     },
     {
         "id":{"$oid":"5cc7428afc13ae1899000003"},
@@ -47,7 +51,8 @@
         "weight30":"480 грам",
         "weight36":"640 грам",
         "price30":"69 грн",
-        "price36":"99 грн"
+        "price36":"99 грн",
+        "pizzaLogo": "pizza.png"
     },
     {
         "id":{"$oid":"5cc7428afc13ae1899000004"},
@@ -57,7 +62,8 @@
         "weight30":"490 грам",
         "weight36":"650грам",
         "price30":"69 грн",
-        "price36":"99 грн"
+        "price36":"99 грн",
+        "pizzaLogo": "pizza.png"
     },
     {
         "id":{"$oid":"5cc7428afc13ae1899000005"},
@@ -67,7 +73,9 @@
         "weight30":"520 грам",
         "weight36":"690 грам",
         "price30":"69 грн",
-        "price36":"99 грн"},
+        "price36":"99 грн",
+        "pizzaLogo": "pizza.png"
+    },
     {
         "id":{"$oid":"5cc7428afc13ae1899000006"},
         "name":"4 сири",
@@ -76,6 +84,31 @@
         "weight30":"450 грам",
         "weight36":"600 грам",
         "price30":"79 грн",
-        "price36":"109 грн"
+        "price36":"109 грн",
+        "pizzaLogo": "pizza.png"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000009"},
+        "name":"Гриби, помідори, ананаси, маслини, перець чілі, цибуля, огірки солоні",
+        "ingredients":[""],
+        "image":"add10.png",
+        "price36":"+ 10 грн",
+        "add": "add"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000010"},
+        "name":"Мисливські ковбаски, балик, салямі, курка",
+        "ingredients":[""],
+        "image":"add15.png",
+        "price36":"+ 15 грн",
+        "add":"add"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000011"},
+        "name":"Сир на вибір",
+        "ingredients":[""],
+        "image":"add20.png",
+        "price36":"+ 20 грн",
+        "add": "add"
     }
 ]
