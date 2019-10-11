@@ -1,16 +1,17 @@
 <template>
-  <v-toolbar color="rgba(225,225,225,0)" class="elevation-0 toolbar" dark fixed app>
+  <v-toolbar color="rgba(225,225,225,0)" class="elevation-0 toolbar" light fixed >
     <img
-      :src="require('../../../assets/monster_pizza_logo_transparent.png')"
+      :src="require('../../../assets/mp_logo.png')"
       contain
       class="logo"
     />
-    <span class="phone-number">095-541-31-91</span>
-    <v-toolbar-title class="display-1"></v-toolbar-title>
-
+    <div class="contacts-wrapper">
+    <a class="phone-number" href="tel:0501343797">050-134-37-97  (Зигіна)</a>
+    <a class="phone-number" href="tel:0955413191">095-541-31-91  (Поділ)</a>
+    </div>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down links">
-      <v-btn v-for="item in mainMenu" :key="item.icon" :to="item.link" flat large>
+      <v-btn class="title" v-for="item in mainMenu" :key="item.icon" :to="item.link" flat large>
         {{
         item.title
         }}
@@ -21,13 +22,11 @@
       <v-list>
         <v-list-tile v-for="item in mainMenu" :key="item.icon" :to="item.link">
           <v-list-tile-content>
-            <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+            <v-list-tile-title class="title" >{{ item.title }}</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
     </v-menu>
-
-  
   </v-toolbar>
 </template>
 
@@ -39,12 +38,10 @@ export default {
     return {
       mainMenu: [
         { icon: "home", title: "Monster pizza", link: "/" },
-        { icon: "about", title: "Піцца", link: "/about" },
-        { icon: "menu", title: "Меню", link: "/menu" },
-        { icon: "contact", title: "Контакт", link: "/contact" }
+        { icon: "contact", title: "Контакти", link: "/contact" }
       ]
     };
-  },
+  }
 };
 </script>
 
@@ -58,18 +55,27 @@ export default {
   top: 50px;
   left: -30px;
 }
-.phone-number {
-  color:rgb(247, 240, 240);
-  font-size: 28px;
-  
+.contacts-wrapper{
+  padding-top: 2%;
+  display:flex;
+  flex-direction: column;
 }
-  v-btn {
-    font-size: 40px !important;
-  }
+.phone-number {
+  color:red;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+@media screen and (min-width: 991px) {
+.phone-number {
+  font-size: 28px;
+}
+}
 
 @media screen and (max-width: 992px) {
   .phone-number {
-      font-size: 20px;
+    font-size: 20px;
   }
   .logo{
     top: 30px;
@@ -83,7 +89,6 @@ export default {
 
 @media screen and (max-width: 600px) {
   .phone-number {
-    min-width:50px;
     font-size: 12px;
   }
   .logo{
@@ -91,5 +96,5 @@ export default {
     height: 70px;
     left: -20px;
   }
-}
+} 
 </style>
