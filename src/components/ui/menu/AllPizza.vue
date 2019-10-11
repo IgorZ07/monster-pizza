@@ -5,7 +5,7 @@
   <v-layout row>
     <v-flex>
       <v-list three-line subheader width="40%">
-        <v-subheader class="font-weight-medium title" center inset>Піцца</v-subheader>
+        <v-subheader class="font-weight-medium title" center inset>Піца</v-subheader>
         <v-list-tile v-for="pizza in allPizzas" :key="pizza.id.$oid" avatar>
           <v-avatar
             :tile="false"
@@ -28,7 +28,7 @@
           <div class="wrapper">
          
             <img 
-              :src="require('../../../assets/svg/pizza.png')"
+              :src="getImgUrl(pizza)"
               class="pizza-size-small"
              />
             <v-list-tile-sub-title 
@@ -37,7 +37,7 @@
             </v-list-tile-sub-title>
 
             <img 
-              :src="require('../../../assets/svg/pizza.png')"
+              :src="getImgUrl(pizza)"
               class="pizza-size-big"
              />
              <v-list-tile-sub-title 
