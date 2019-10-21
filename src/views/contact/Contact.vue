@@ -23,7 +23,7 @@
                         </div>
                       </v-card-title>
                       <v-card-actions>
-                        <v-btn flat color="green">
+                        <v-btn href="tel:0955413191" flat color="green">
                           <v-icon>phone</v-icon>Подзвонити
                         </v-btn>
                       </v-card-actions>
@@ -42,7 +42,7 @@
                         </div>
                       </v-card-title>
                       <v-card-actions>
-                        <v-btn flat color="orange">
+                        <v-btn href="tel:0501343797" flat color="green">
                           <v-icon>phone</v-icon>Подзвонити
                         </v-btn>
                       </v-card-actions>
