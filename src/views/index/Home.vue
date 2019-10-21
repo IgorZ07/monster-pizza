@@ -10,7 +10,7 @@
           </span>
         </div>
         <div class="body">
-          <div class="cardSm" v-for="pizza in allPizzas" :key="pizza.id.$oid" >
+          <div class="cardSm" v-for="pizza in allPizzas1" :key="pizza.id.$oid" >
               <div class="wrapper" >
               <img :src="getImgUrl(pizza)" class="image">
                 <div class="details">
@@ -57,13 +57,128 @@ export default {
     getImgUrl(pizza) {
       return require("../../assets/pizza_img/" + pizza.image);
     } },
-  computed: mapGetters(["allPizzas"]),
+  computed: 
+  mapGetters(["allPizzas"]),
   async created() {
     this.getPizzas();
   },
   data() {
     return {
-      pizzaPic: require("../../assets/pizza_img/1D4C0F53-9703-46B4-8A38-65A2727193A8.jpeg")
+      pizzaPic: require("../../assets/pizza_img/1D4C0F53-9703-46B4-8A38-65A2727193A8.jpeg"),
+      allPizzas1: [
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000000"},
+        "name":"Маргарита",
+        "ingredients":["тісто","томатний соус","сир моцарела","помідори"],
+        "image":"001.png",
+        "weight30":"450 грам",
+        "weight36":"600 грам",
+        "price30":"49 грн",
+        "price36":"79 грн",
+        "pizzaLogo": "pizza.png"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000001"},
+        "name":"Monster pizza",
+        "ingredients":["тісто","гірчичний соус","сир моцарела","мисливські ковбаски","балик","гриби","огірки солоні"],
+        "image":"002.png",
+        "weight30":"520 грам",
+        "weight36":"690 грам",
+        "price30":"69 грн",
+        "price36":"99 грн",
+        "pizzaLogo": "pizza.png"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000002"},
+        "name":"М'ясна до пива",
+        "ingredients":["тісто","гірчичний соус","сир моцарела","салямі","курка","балик","мисливські ковбаски","цибуля"],
+        "image":"003.png",
+        "weight30":"550 грам",
+        "weight36":"750 грам",
+        "price30":"79 грн",
+        "price36":"109 грн",
+        "pizzaLogo": "pizza.png"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000007"},
+        "name":"Гавайська",
+        "ingredients":["тісто","томатний соус","сир моцарела","ананаси","помідори","курка"],
+        "image":"004.png",
+        "weight30":"520 грам",
+        "weight36":"680 грам",
+        "price30":"69 грн",
+        "price36":"99 грн",
+        "pizzaLogo": "pizza.png"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000003"},
+        "name":"Салямі",
+        "ingredients":["тісто","томатний соус","сир моцарела","салямі"],
+        "image":"005.png",
+        "weight30":"480 грам",
+        "weight36":"640 грам",
+        "price30":"69 грн",
+        "price36":"99 грн",
+        "pizzaLogo": "pizza.png"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000004"},
+        "name":"Шинка з грибами",
+        "ingredients":["тісто","соус барбекю","сир моцарела","балик","гриби"],
+        "image":"006.png",
+        "weight30":"490 грам",
+        "weight36":"650грам",
+        "price30":"69 грн",
+        "price36":"99 грн",
+        "pizzaLogo": "pizza.png"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000005"},
+        "name":"Курка з грибами",
+        "ingredients":["тісто","соус барбекю","сир моцарела","курка","гриби","помідори","маслини/перець чілі"],
+        "image":"007.png",
+        "weight30":"520 грам",
+        "weight36":"690 грам",
+        "price30":"69 грн",
+        "price36":"99 грн",
+        "pizzaLogo": "pizza.png"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000006"},
+        "name":"4 сири",
+        "ingredients":["тісто","гірчичний соус","сир моцарела","сир пармезан","сир лазур","сир гауда"],
+        "image":"008.png",
+        "weight30":"450 грам",
+        "weight36":"600 грам",
+        "price30":"79 грн",
+        "price36":"109 грн",
+        "pizzaLogo": "pizza.png"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000009"},
+        "name":"Гриби, помідори, ананаси, маслини, перець чілі, цибуля, огірки солоні",
+        "ingredients":[""],
+        "image":"add10.png",
+        "price36":"+ 10 грн",
+        "add": "add"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000010"},
+        "name":"Мисливські ковбаски, балик, салямі, курка",
+        "ingredients":[""],
+        "image":"add15.png",
+        "price36":"+ 15 грн",
+        "add":"add"
+    },
+    {
+        "id":{"$oid":"5cc7428afc13ae1899000011"},
+        "name":"Сир на вибір",
+        "ingredients":[""],
+        "image":"add20.png",
+        "price36":"+ 20 грн",
+        "add": "add"
+    }
+]
     };
   }
 };
