@@ -1,11 +1,8 @@
 import axios from "axios"
 
-
-
 const state = {
     pizzasList: []
 };
-
 
 const getters = {
     allPizzas: state => state.pizzasList
@@ -14,7 +11,7 @@ const getters = {
 const actions = {
     async getPizzas({ commit }) {
 
-        const response = await axios.get("http://localhost:8080/data/menu.json")
+        const response = await axios.get("http://localhost:8081/data/menu.json")
         commit("setPizzas", response.data)
     }
 }
